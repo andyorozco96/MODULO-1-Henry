@@ -2,10 +2,6 @@
 
 function BinarioADecimal(num) {
   // tu codigo aca
-  /*
-  1) Invertir el numero brindado en num
-
-  */
 
 let numReverse = num.split("").reverse();
 let decimal = 0;
@@ -20,10 +16,11 @@ let suma;
 
 }
 
-function DecimalABinario(num) {
-  // tu codigo aca
+function DecimalABinario(num) { 
+  // tu codigo aca        
   
   
+
   let binarioFinal = [];
   while (num !== 0) {
     binarioFinal.push(num % 2);
