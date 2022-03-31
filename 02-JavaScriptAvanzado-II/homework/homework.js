@@ -42,7 +42,6 @@ function cacheFunction(cb) {
     } 
   }
 }
-
 // Bind
 
 var instructor = {

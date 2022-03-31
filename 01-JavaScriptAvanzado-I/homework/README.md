@@ -156,10 +156,6 @@ var obj = {
    }
 };
 
-// memory
-// fullname = undefined
-// obj = undefined
-
 console.log(obj.prop.getFullname()); // 'Aurelio de Rosa'
 
 var test = obj.prop.getFullname;
