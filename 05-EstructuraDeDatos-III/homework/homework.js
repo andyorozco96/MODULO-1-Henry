@@ -108,6 +108,7 @@ BinarySearchTree.prototype.depthFirstForEach = function(cb, order){
     cb(this.value)
   }
 };
+
 BinarySearchTree.prototype.breadthFirstForEach = function(cb , array = []){
   cb(this.value)
   if (this.left) array.push(this.left);
